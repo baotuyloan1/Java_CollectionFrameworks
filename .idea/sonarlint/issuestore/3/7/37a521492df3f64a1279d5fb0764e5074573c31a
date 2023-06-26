@@ -1,0 +1,14 @@
+
+Ö
+java:S1598"¹This file "CollectionFramework.java" should be located in "com\collection" directory, not in "D:\Self-Study\Java\CollectionFramework\com.collection"(Do not use dots in directory names).(¼´ö8«À¯1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(á„è²8µÀ¯1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(á„è²8¶À¯1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(…Ç³ˆúÿÿÿÿ8Â¥±1
+W
+java:S1611"5Remove the parentheses around the "element" parameter(¼ÌÅùÿÿÿÿ8¿ú²1
+N
+java:S1602",Remove useless curly braces around statement(¼ÌÅùÿÿÿÿ8¿ú²1
+b
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(¼ÌÅùÿÿÿÿ8Ï˜³1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8Ïú²1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(á„è²8Œ…´1

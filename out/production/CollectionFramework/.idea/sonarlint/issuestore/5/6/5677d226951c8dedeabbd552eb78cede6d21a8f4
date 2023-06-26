@@ -1,0 +1,14 @@
+
+i
+java:S1192:"GDefine a constant instead of duplicating this literal "Monday" 4 times.(ÁƒÍÂüÿÿÿÿ8ğ¯ë1
+X	java:S125"<This block of commented-out lines of code should be removed.(†‘‚ä8ş¯ë1
+]	java:S125"<This block of commented-out lines of code should be removed.(ÉŸà³ùÿÿÿÿ8ÿ¯ë1
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(Š›Ù—8ÎÆê1
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(›ğ–’øÿÿÿÿ8ƒ°ë1
+Z	java:S1063"9Replace this use of System.out or System.err by a logger.(¥Üøÿÿÿÿÿ8ƒ°ë1
+U	java:S106E"9Replace this use of System.out or System.err by a logger.(Å’ø³8‰°ë1
+U	java:S106P"9Replace this use of System.out or System.err by a logger.(½İßº8‹°ë1
+N
+java:S11446"2Remove this unused private "linkedHashSet" method.(¨—©8‹°ë1
+R
+java:S1144H"0Remove this unused private "hashSetDemo" method.(£·—úüÿÿÿÿ8³ÿä1
