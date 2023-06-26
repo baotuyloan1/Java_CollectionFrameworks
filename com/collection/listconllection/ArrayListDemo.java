@@ -7,6 +7,23 @@ import java.util.*;
  */
 
 /**
+ * Difference Between ArrayList and
+ *
+ * <p>ArrayList sử dụng mảng động để lưu trữ các phần tử. LinkedList uses the doubly linked list to
+ * store the elements.
+ *
+ * <p>Manipulation(thao tác) with ArrayList is slow because it uses an array. If any element is
+ * removed from the array, all the bits are shifted in the memory. Manipulation with LinkedList is
+ * faster than ArrayList because it uses a doubly linked list so no bit shifting is required in
+ * memory.
+ *
+ * <p>ArrayList class can act as a list only becaust it implements List only. LinkedList class can
+ * act as a list and queue both because it implements List and Deque interfaces.
+ *
+ * <p>ArrayList is better for saccessing data. LinkedList is better for manipulating data.
+ */
+
+/**
  * Java ArrayList class uses a dynamic array for storing the elements. It inherits AbstractList
  * class and implements List interface.
  *
@@ -181,7 +198,7 @@ public class ArrayListDemo {
     intersection.add("element 2");
     intersection.add("element 3");
     intersection.add("element 4");
-    System.out.println("retainAll --> "+ intersection.retainAll(list));
+    System.out.println("retainAll --> " + intersection.retainAll(list));
 
     // Removes from this list all of its elements that are
     // contained in the specified collection (optional operation).
@@ -193,31 +210,30 @@ public class ArrayListDemo {
     System.out.println("removeAll operation example ---> " + difference.removeAll(list));
     printMessage(difference, "removeAll operation example ");
 
-
     List<String> checking = new ArrayList<>();
     checking.add("element 1");
     checking.add("element 2");
     checking.add("element 3");
     checking.add("element 4");
     checking.add("element 5");
-    System.out.println("constainsAll operation example ---->"+checking.containsAll(list));
+    System.out.println("constainsAll operation example ---->" + checking.containsAll(list));
   }
 
-  private static void printMessage(List<String> list, String message){
+  private static void printMessage(List<String> list, String message) {
     list.forEach(item -> System.out.println(message + item));
   }
 
-  private static void iterateDemo(){
-    List<String>list = new LinkedList<>();
+  private static void iterateDemo() {
+    List<String> list = new LinkedList<>();
     list.add("element 1");
     list.add("element 2");
     list.add("element 3");
     list.add("element 4");
 
     Iterator<String> iterator = list.iterator();
-    while (iterator.hasNext()){
+    while (iterator.hasNext()) {
       String str = iterator.next();
-      System.out.println(" only forwad direction ---"+str);
+      System.out.println(" only forwad direction ---" + str);
     }
 
     // Using advanced for loop
@@ -228,7 +244,7 @@ public class ArrayListDemo {
     list.forEach(str -> System.out.println(" only forward direction ---" + str));
   }
 
-  private static void listIterateDemo(){
+  private static void listIterateDemo() {
 
     System.out.println("================");
     List<String> list = new LinkedList<>();
@@ -237,17 +253,17 @@ public class ArrayListDemo {
     list.add("element 3");
     list.add("element 4");
     ListIterator<String> iterator = list.listIterator();
-    while (iterator.hasNext()){
+    while (iterator.hasNext()) {
       String str = iterator.next();
-      System.out.println("forward direction ---"+str);
+      System.out.println("forward direction ---" + str);
     }
 
-    while (iterator.hasPrevious()){
+    while (iterator.hasPrevious()) {
       String str = iterator.previous();
-      System.out.println("backward direction---"+str);
+      System.out.println("backward direction---" + str);
     }
 
-    for (ListIterator<String> it = list.listIterator(list.size());it.hasPrevious(); ){
+    for (ListIterator<String> it = list.listIterator(list.size()); it.hasPrevious(); ) {
       String string = it.previous();
       System.out.println(string);
     }
